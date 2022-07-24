@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figuras</title>
+    <link rel="stylesheet" href="figuras.css">
+  </head>
+  <body>
+    <header>
+      <h1>Figuras Geometricas</h1>
+      <p>Taller 1 practico de JavaScript</p>
+    </header>
+    <section>
+      <h2>calcula el area y perimetro de un cuadro</h2>
+      <form id="formc" >
+        <label for="InputCuadrado">Escibe cuanto mide cada lado de tu cuadrado: </label>
+        <input type="number"  max="5" required  id="InputCuadrado"/>
+        <button type="button" onclick="calcularPerimetroCuadrado()">calcular el perimetro</button>
+        <button type="button" onclick="calcularAreaCuadrado()">Calculal el area</button>
+      </form>
+    </section>
+    <section>
+        <h2>calcula el area y perimetro de un Triangulo</h2>
+        <form id="formt1" >
+          <label for="InputTriangulo">Calcula el perimetro del Triangulo </label>
+          <input type="number" name="ladot1" max="5" required  id="ladot1"/>
+          <label for="ladot1">Lado 1</label>
+          <input type="number"  max="5" required  id="ladot2"/>
+          <label for="ladot2">Lado 2</label>
+          <input type="number"  max="5" required  id="baset"/>
+          <label for="baset">Base</label>
+          <button type="button" onclick="Trianguloa()">Perimetro Triangulo</button>
+          
+        </form>
+        <form id="formt" >
+          <label for="InputTriangulo">Calcula el Area del Triangulo </label>
+          <input type="number"  max="5" required  id="baseta"/>
+          <label for="baset">Base</label>
+          <input type="number"  max="5" required  id="alturat"/>
+          <label for="alturat">Altura</label>
+          <button type="button" onclick="Triangulob()"  >Area Triangulo</button>
+      </form>
+      </section>
+
+    <script src="figuras.js"></script>
+  </body>
+</html>

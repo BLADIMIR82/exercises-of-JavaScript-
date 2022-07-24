@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(28, 206, 117) !important;
+    height: 100%;
+    width: 100%;
+}
+h3{
+    color: black;
+}
+i{
+    cursor: pointer !important;    
+}
+.material-icons{
+    cursor: pointer !important
+}
