@@ -406,7 +406,7 @@ const misPelis =[
   calificacion: 9.58,
   }
 ]
-
+   
 console.log(peli);
 peli.fichaTecnica()
 misPelis.forEach(item => new Pelicula(item).fichaTecnica());

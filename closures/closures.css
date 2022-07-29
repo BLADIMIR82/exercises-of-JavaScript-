@@ -1,0 +1,145 @@
+body{
+border: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container-header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20vh;
+}
+.container-nav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.title-principal{
+    display: flex;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  height: 10vh;
+}
+.container-acnchors{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-around;
+    background-color: rgb(244, 91, 26);
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px 10px;
+    width: 8vw;
+    height: 3vh;
+    padding: 0.7rem;
+    color: black;
+}
+a:hover{
+    background-color: blue;
+}
+.container-main{
+    width: 100%;
+    display: flex;
+    min-height: 100%;
+    background-color: orange;
+}
+.container-info{
+    margin-top: 1rem;
+    padding: 3rem;
+    width: 100%;
+    height: 80vh;
+}
+.container-info2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 1rem;
+    width: 100%;
+    height: 80vh;
+}
+.container-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-image img{
+width: 280px;
+}
+.container-main-list{
+    width: 100%;
+}
+.container-tittle-container-info2{
+    margin: 1rem 1rem;
+    display: flex;
+    width: 90%;
+    height: 20vh;
+    border: 0.5px solid black;
+    border-radius: 4px 4px;
+    background-color: blue;
+    box-shadow: 10px 5px 5px rgba(193, 190, 190, 0.486);
+}
+.container-info2-number1{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.container-info2-number1-image{
+    width: auto;
+}
+
+.container-info2-number1-image img{
+height: 125px;
+width: 130px;
+border-radius: 3px 3px;
+margin: 0.3rem 0.3rem;
+}
+.container-info2-number1-text{
+    width: 68%;
+}
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 18vh;
+    background-color: yellow;
+}
+
+.container-form-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+legend{
+    text-align: center;
+}fieldset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    border-radius: 5px 5px;
+}
+label{
+    margin-right: 1rem;
+}
+.container-parrraf{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0.2px;
+}
+p{
+    margin: 0.5rem;
+    padding: 0;
+}
