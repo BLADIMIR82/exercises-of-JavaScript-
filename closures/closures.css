@@ -31,7 +31,6 @@ box-sizing: border-box;
     background-color: rgb(244, 91, 26);
     align-items: center;
 }
-
 a{
     text-decoration: none;
     text-align: center;
@@ -41,6 +40,7 @@ a{
     width: 8vw;
     height: 3vh;
     padding: 0.7rem;
+    box-shadow: 10px 5px 5px rgba(54, 54, 54, 0.486);
     color: black;
 }
 a:hover{
@@ -73,6 +73,9 @@ a:hover{
 }
 .container-image img{
 width: 280px;
+border: 0.5px solid white ;
+border-radius: 10% 2%;
+box-shadow: 10px 5px 5px rgba(54, 54, 54, 0.486);
 }
 .container-main-list{
     width: 100%;
@@ -85,7 +88,8 @@ width: 280px;
     border: 0.5px solid black;
     border-radius: 4px 4px;
     background-color: blue;
-    box-shadow: 10px 5px 5px rgba(193, 190, 190, 0.486);
+    box-shadow: 10px 5px 5px rgba(54, 54, 54, 0.486);
+    color: white;
 }
 .container-info2-number1{
     display: flex;
@@ -142,4 +146,10 @@ label{
 p{
     margin: 0.5rem;
     padding: 0;
+}
+button{
+    margin-left: 0.5rem;
+}
+input{
+    padding-left: 1rem;
 }
