@@ -32,11 +32,10 @@ export function alarm(sound, btnPlay, btnStop) {
       e.target.disabled = true;
     }
     if (e.target.matches(btnStop)) {
-        clearTimeout(alarmTempo);
-        $alarm.pause();
-        $alarm.currentTime = 0;
-        d.querySelector(btnPlay).disabled = false;
-
-        }
+      clearTimeout(alarmTempo);
+      $alarm.pause();
+      $alarm.currentTime = 0;
+      d.querySelector(btnPlay).disabled = false;
+    }
   });
 }
