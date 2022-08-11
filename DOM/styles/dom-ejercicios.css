@@ -73,7 +73,7 @@ video {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 100%;
+  width: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -257,6 +257,16 @@ video {
   height: 4rem;
   border-radius: 50%;
   background-color: var(--main-color);
+}
+#countdown{
+  font-size: 2rem;
+  color: #f44336;
+  width: 100%;
+  height: auto;
+  background-color: #4d4d4d6c;
+  border: 3px solid black;
+  border-radius: 4px 4px;
+  box-shadow:  10px 5px 5px rgba(0, 0, 0, 0.525); ;
 }
 
 /* **********     ScrollTopButton     ********** */
